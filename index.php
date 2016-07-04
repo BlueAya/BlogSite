@@ -4,6 +4,18 @@
 
     <!-- Begin Section Container -->
     <section class="row">
+      <div class="four columns leftsidenav">
+        <!-- Navigation -->
+        <div class="twelve columns">
+          <?php
+              wp_nav_menu(array(
+                'sort_column' => 'menu_order',
+                'container_class' => 'blank-menu-header'
+              ));
+          ?>
+        </div>
+          <?php dynamic_sidebar('front-sidebar-widget'); ?>
+      </div>
       <div class="eight columns">
           <!-- Begin Loop -->
               <?php if ( have_posts() ) {
@@ -28,9 +40,6 @@
                 } //end if
               ?>
               <!-- End Loop -->
-      </div>
-      <div class="four columns">
-          <?php dynamic_sidebar('front-sidebar-widget'); ?>
       </div>
     </section>
     <!-- End Section Container -->

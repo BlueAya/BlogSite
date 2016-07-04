@@ -105,3 +105,8 @@ h2.sub-title {
 .index-thumbnail img {
   border-radius: 50%;
 }
+
+/* Left Side Navigation */
+.leftsidenav {
+    background-color: #191b1b;
+}
