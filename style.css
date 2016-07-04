@@ -54,11 +54,8 @@ h5 {
 }
 
 a {
-  color: red;
-  font-weight: 700;
-  text-decoration: none;
+    text-decoration: none;
 }
-
 /*--- Menu --- */
 
 .blank-menu-header {
@@ -75,6 +72,11 @@ a {
 .blank-menu-header li {
     display: inline;
 }
+
+.blank-menu-header ul li {
+    margin-top: 3em;
+}
+
 .blank-menu-header ul li a {
     text-decoration:none;
     margin: 4px;
@@ -83,8 +85,14 @@ a {
     font-size: 1.1rem;
     text-transform: uppercase;
 }
+.blank-menu-header ul li:hover {
+    color: #eaeaec;
+    background-color: #986b4d;
+    width: 100%;
+}
+
 .blank-menu-header ul li a:hover {
-    color: #cccccc;
+    color: #eaeaec;
 }
 
 .current-menu-item a {
@@ -136,11 +144,30 @@ h2.sub-title {
     position: fixed;
     height: 100%;
     margin-right: 0;
+    text-align: center;
 }
 
+
 /* Navigation Pages */
+#nav-menu {
+    width: 100%;
+    margin-left: 0;
+}
+
+.leftsidenav a {
+    color: #8f8f8f;
+}
+
 .blank-menu-header ul li {
     display: block;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.blank-menu-header ul li a {
+    font-size: 2rem;
+    margin-top: 1.5em;
 }
 
 /* Header Title and Background Image */

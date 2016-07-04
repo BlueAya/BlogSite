@@ -16,7 +16,7 @@
               am
           </div>
           <!-- Navigation -->
-          <div class="nine columns">
+          <div id="nav-menu" class="nine columns">
             <?php
                 wp_nav_menu(array(
                   'sort_column' => 'menu_order',
