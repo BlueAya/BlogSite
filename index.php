@@ -4,19 +4,23 @@
 
     <!-- Begin Section Container -->
     <section class="row">
-      <div class="four columns leftsidenav">
+
+      <!-- Sidebar -->
+      <!-- <div class="four columns leftsidenav"> -->
         <!-- Navigation -->
-        <div class="twelve columns">
+        <!-- <div class="twelve columns"> -->
           <?php
-              wp_nav_menu(array(
-                'sort_column' => 'menu_order',
-                'container_class' => 'blank-menu-header'
-              ));
+              // wp_nav_menu(array(
+              //   'sort_column' => 'menu_order',
+              //   'container_class' => 'blank-menu-header'
+              // ));
           ?>
-        </div>
-          <?php dynamic_sidebar('front-sidebar-widget'); ?>
-      </div>
-      <div class="eight columns">
+        <!-- </div> -->
+          <!-- <?php dynamic_sidebar('front-sidebar-widget'); ?> -->
+      <!-- </div> -->
+
+      <!-- End Sidebar -->
+      <div class="eight columns main-content">
           <!-- Begin Loop -->
               <?php if ( have_posts() ) {
                   while ( have_posts() ) {

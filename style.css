@@ -109,4 +109,16 @@ h2.sub-title {
 /* Left Side Navigation */
 .leftsidenav {
     background-color: #191b1b;
+    position: fixed;
+    height: 100%;
+}
+
+/* Header Title and Background Image */
+.headbgtitle {
+    float: right;
+}
+
+/* Main Content and Posts */
+.main-content {
+    float: right;
 }

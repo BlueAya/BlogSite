@@ -10,7 +10,23 @@
 <body>
   <div class="container"> <!-- Begin Container -->
     <header class="row">
-      <div class="eight columns">
+      <!-- Begin Sidebar -->
+      <div class="three columns leftsidenav">
+        <!-- Navigation -->
+        <div class="twelve columns">
+          <?php
+              wp_nav_menu(array(
+                'sort_column' => 'menu_order',
+                'container_class' => 'blank-menu-header'
+              ));
+          ?>
+        </div>
+          <?php dynamic_sidebar('front-sidebar-widget'); ?>
+      </div>
+      <!-- End Sidebar -->
+
+      <!-- Header Picture and Title -->
+      <div class="eight columns headbgtitle">
         <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url;?>">
           <?php bloginfo('name'); ?>
         </a></h1>
