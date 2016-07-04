@@ -10,6 +10,14 @@ Text Domain: BlogSite
 
 @import url("styles/normalize.css");
 @import url("styles/skeleton.css");
+@font-face {
+    font-family: 'coquetaregular';
+    src: url('custom-fonts/coqueta-webfont.woff2') format('woff2'),
+         url('custom-fonts/coqueta-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 html, body {
@@ -116,12 +124,41 @@ h2.sub-title {
     background-color: #191b1b;
     position: fixed;
     height: 100%;
+    margin-right: 0;
+}
+
+/* Navigation Pages */
+.blank-menu-header ul li {
+    display: block;
 }
 
 /* Header Title and Background Image */
 .headbgtitle {
+    background-image: url('http://www.totemdesigns.net/WIE/wp-content/uploads/2016/07/bgheaderimg.jpg');
+    width: 100%;
+    min-height: 350px;
+    background-size: cover;
     float: right;
-    background-image: url(http://www.totemdesigns.net/WIE/wp-content/uploads/2016/07/bgheaderimg.jpg) no-repeat fixed center;
+    background-color: pink;
+    margin-left: 0;
+}
+
+/* Logo */
+#logo {
+    font-family: 'coquetaregular';
+    text-align: center;
+    font-size: 6em;
+    color: #eaeaec;
+    background-color: #24292e;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* Fix Spacing So Sidebar and Image are Touching */
+
+@media (min-width: 550px) {
+.nine.columns {
+    width: 78%;
 }
 
 /* Main Content and Posts */
