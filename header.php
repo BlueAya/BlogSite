@@ -13,7 +13,7 @@
       <!-- Begin Sidebar -->
       <div class="three columns leftsidenav">
         <!-- Navigation -->
-        <div class="twelve columns">
+        <div class="nine columns">
           <?php
               wp_nav_menu(array(
                 'sort_column' => 'menu_order',
