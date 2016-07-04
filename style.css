@@ -10,6 +10,7 @@ Text Domain: BlogSite
 
 @import url("styles/normalize.css");
 @import url("styles/skeleton.css");
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 @font-face {
     font-family: 'coquetaregular';
     src: url('custom-fonts/coqueta-webfont.woff2') format('woff2'),
@@ -24,6 +25,7 @@ html, body {
     color: #000000;
     font-size: 14px;
     line-height: 1.5em;
+    font-family: 'Nunito', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -91,21 +93,30 @@ a {
 }
 
 /* Header */
+#siteandsub {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
 h1.site-title {
     font-size: 2.7em;
     padding: 0;
     margin: 30px 0 0;
+    background-color: #191b1c;
+    padding: 0.5em;
 }
 
-h1.site-title a {
-    color: #112b80;
+h1.site-title a, h2.sub-title a {
+    color: #eaeaec;
 }
 
 h2.sub-title {
-    font-size: 1.8rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin: 0;
+  font-size: 2.7em;
+  padding: 0;
+  margin: 30px 0 0;
+  background-color: #191b1c;
+  padding: 0.5em;
 }
 
 /* Index */

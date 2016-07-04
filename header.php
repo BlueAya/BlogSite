@@ -30,11 +30,11 @@
 
       <!-- Header Picture and Title -->
       <div class="nine columns headbgtitle">
-          <div>
+          <div id="siteandsub">
             <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url;?>">
               <?php bloginfo('name'); ?>
             </a></h1>
-            <h2 class="sub-title"><?php bloginfo('description'); ?></h2>
+            <h2 class="sub-title"><a href="<?php $url = home_url('/'); echo $url;?>"><?php bloginfo('description'); ?></a></h2>
           </div>
       </div>
     </header>
