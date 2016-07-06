@@ -2,8 +2,8 @@
 /* Template Name: Search Page */
 get_header(); ?>
 
-<div class="row">
-    <div class="eight columns">
+<div class="main-content-archives nine-columns">
+    <div class="nine columns main-content-archives">
         <?php if( have_posts() ) :?>
             <h1><?php printf(
               __('Search Results for: %s'),

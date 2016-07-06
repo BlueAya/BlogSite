@@ -253,6 +253,11 @@ h2.sub-title {
     padding-right: 3em;
 }
 
+/* Single Post */
+.max-width img {
+    max-width: 100%;
+}
+
 /* Main Content and Posts */
 #main-content {
     float: right;
