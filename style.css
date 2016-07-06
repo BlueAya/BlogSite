@@ -220,12 +220,20 @@ h2.sub-title {
 }
 
 /* Main Content and Posts */
+#main-content {
+    float: right
+}
+
 .main-content {
+    float: left;
+}
+
+.main-content-right {
     float: right;
 }
 
 
-/* Main Content and Posts */
+/* Footer */
 footer {
     background-color: #976a4d;
     float: right !important;
