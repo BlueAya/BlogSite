@@ -99,11 +99,6 @@ a:hover {
     color: #eaeaec;
 }
 
-.current-menu-item a {
-    color: red;
-    border-bottom: 3px solid red;
-}
-
 /* Header */
 #siteandsub {
     display: inline-block;
@@ -170,6 +165,51 @@ h2.sub-title {
     height: 100%;
     margin-right: 0;
     text-align: center;
+}
+
+@media all and (min-width: 400px) and (max-width: 549px) {
+    .leftsidenav {
+        position: initial;
+    }
+
+    * {
+        position: initial;
+        width: 100%;
+    }
+
+    #siteandsub {
+        width: 100%;
+    }
+
+    h1.site-title,
+    h2.sub-title {
+        padding: 0.5em 0;
+        text-align: center;
+    }
+
+    .index-thumbnail {
+        margin-left: 0 !important;
+    }
+
+    h1,
+    h2,
+    p {
+        padding: 1em;
+    }
+
+    #topborder {
+        margin-left: 0 !important;
+    }
+
+    footer {
+        background-color:#976a4d;
+        margin-top: 1em;
+        padding-top: 2em;
+    }
+}
+
+#searchform input[type="text"] {
+    color: #191b1b;
 }
 
 /*#menu-header-menu:last-child {
@@ -253,6 +293,11 @@ h2.sub-title {
     padding-right: 3em;
 }
 
+/* About Page */
+.one-hundred-width {
+    width: 100% !important;
+}
+
 /* Single Post */
 .max-width img {
     max-width: 100%;
@@ -282,4 +327,9 @@ footer {
 .sfsiplus_norm_row {
     width: 75% !important;
     margin-top: 10px;
+}
+
+/* Search Page Not Found */
+.extrasearch-margin {
+    margin-bottom: 250px;
 }

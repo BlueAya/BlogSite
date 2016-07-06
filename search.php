@@ -15,13 +15,16 @@ get_header(); ?>
               <?php the_content();
             endwhile;
          else : ?>
+
+         <div class="extrasearch-margin main-content-archives nine columns">
             <h1>Nothing Found</h1>
             <p>Sorry, but nothing matched your search criteria. Please try again with different search terms.</p>
+        </div>
         <?php endif; ?>
     </div>
-    <div class="four columns">
-        <?php get_sidebar(); ?>
-    </div>
+    <!-- <div class="four columns">
+        <?php //get_sidebar(); ?>
+    </div> -->
 </div>
 
 <?php get_footer(); ?>

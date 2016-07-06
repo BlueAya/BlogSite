@@ -13,7 +13,7 @@
       <!-- Begin Sidebar -->
       <div class="three columns leftsidenav">
           <div id="logo">
-              am
+              <a href="<?php $url = home_url('/'); echo $url;?>">am</a> 
           </div>
           <!-- Navigation -->
           <div id="nav-menu" class="nine columns">
