@@ -28,10 +28,10 @@ html, body {
     font-family: 'Nunito', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
   color: #999999;
   font-weight: 700;
-}
+}*/
 
 h1 {
   font-size: 3.0rem;
@@ -55,6 +55,10 @@ h5 {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
 }
 /*--- Menu --- */
 
@@ -80,7 +84,7 @@ a {
 .blank-menu-header ul li a {
     text-decoration:none;
     margin: 4px;
-    padding: 0 20px 0 0;
+    /*padding: 0 20px 0 0;*/
     font-weight: 300;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -147,6 +151,16 @@ h2.sub-title {
     text-align: center;
 }
 
+/*#menu-header-menu:last-child {
+    border-bottom: 2px solid #eacaec;
+}*/
+
+#topborder {
+    border-top: 2px solid #eacaec;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+}
 
 /* Navigation Pages */
 #nav-menu {
@@ -155,7 +169,7 @@ h2.sub-title {
 }
 
 .leftsidenav a {
-    color: #8f8f8f;
+    color: #eaeaec;
 }
 
 .blank-menu-header ul li {
@@ -169,6 +183,12 @@ h2.sub-title {
     font-size: 2rem;
     margin-top: 1.5em;
 }
+
+.widget-index-sidebar, .widget-index-sidebar a {
+    color: #eaeaec;
+    cursor: pointer;
+}
+
 
 /* Header Title and Background Image */
 .headbgtitle {
@@ -202,4 +222,17 @@ h2.sub-title {
 /* Main Content and Posts */
 .main-content {
     float: right;
+}
+
+
+/* Main Content and Posts */
+footer {
+    background-color: #976a4d;
+    float: right !important;
+}
+
+/* Social Media */
+.sfsiplus_norm_row {
+    width: 75% !important;
+    margin-top: 10px;
 }

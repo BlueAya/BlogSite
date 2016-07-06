@@ -23,6 +23,8 @@
                   'container_class' => 'blank-menu-header'
                 ));
             ?>
+            <div id="topborder"></div>
+
           </div>
           <?php dynamic_sidebar('front-sidebar-widget'); ?>
       </div>
