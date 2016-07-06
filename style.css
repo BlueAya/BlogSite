@@ -131,10 +131,31 @@ h2.sub-title {
   padding: 0.5em;
 }
 
-/* Index */
+/* Thumbnails and Titles/Permalinks */
 
-.index-thumbnail img {
-  border-radius: 50%;
+.index-thumbnail  {
+    margin-left: 3em !important;
+    margin-top: 3em;
+}
+
+.titlenearpermalinks {
+    margin-left: 0.4em;
+}
+
+.permalinks {
+    color: #976a4d;
+    margin-left: 1em;
+    text-decoration: underline;
+}
+
+.titlenearpermalinks2 {
+    margin-left: 0.7em;
+}
+
+.permalinks2 {
+    color: #976a4d;
+    margin-left: 1.7em;
+    text-decoration: underline;
 }
 
 /* Container */
@@ -160,6 +181,11 @@ h2.sub-title {
     margin-left: 2em;
     margin-right: 2em;
     margin-bottom: 3em;
+}
+
+#searchsubmit {
+    display: block;
+    margin: auto;
 }
 
 /* Navigation Pages */
@@ -219,9 +245,17 @@ h2.sub-title {
     width: 78%;
 }
 
+/* Archives */
+.main-content-archives {
+    float: right !important;
+    padding-left: 3em;
+    padding-top: 3em;
+    padding-right: 3em;
+}
+
 /* Main Content and Posts */
 #main-content {
-    float: right
+    float: right;
 }
 
 .main-content {
