@@ -241,6 +241,20 @@ h2.sub-title {
   .main-content-right {
       float: none;
   }
+
+  input[type="text"] {
+      width:100%;
+  }
+
+  #siteandsub {
+      width: 100%;
+  }
+
+  h1.site-title,
+  h2.sub-title {
+      padding: 0.5em 0;
+      text-align: center;
+  }
 }
 
 #searchform input[type="text"] {

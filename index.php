@@ -22,7 +22,7 @@
       <!-- End Sidebar -->
       <div class="seven columns main-content">
           <!-- Begin Loop -->
-          <?php query_posts('cat=1&showposts=3'); ?>
+          <?php query_posts('cat=1&showposts=10'); ?>
               <?php if ( have_posts() ) {
                   while ( have_posts() ) {
                     the_post(); ?>
@@ -49,7 +49,7 @@
       </div>
       <div class="five columns main-content-right">
           <!-- Begin Loop -->
-          <?php query_posts('cat=-1&showposts=3'); ?>
+          <?php query_posts('cat=-1&showposts=10'); ?>
               <?php if ( have_posts() ) {
                   while ( have_posts() ) {
                     the_post(); ?>
